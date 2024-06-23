@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+html {
+    background-color: #ffffff;
+}
+
+body {
+    font-family: "Dela Gothic One", sans-serif;
+    background-image: conic-gradient(#fbfbfb 0deg 90deg, #f5f5f5 90deg 180deg, #fbfbfb 180deg 270deg, #f5f5f5 270deg 360deg);
+    background-size: 30px 30px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    overflow: hidden;
+}
+
+header {
+    height: 5rem;
+    background-color: #003366;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+main {
+    height: calc(100vh - 8rem);
+}
+
+footer {
+    height: 3rem;
+    background-color: #a9a9a9;
+    border-top: 1px solid #f5f5f5;
+    color: #c0c0c0;
+}
+
+button.btn--color {
+    color: #fff;
+    background-color: #008080;
+    border-bottom: 5px solid #2f4f4f;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+button.btn--color:hover {
+    margin-top: 3px;
+    color: #fff;
+    background: #00a8a8;
+    border-bottom: 2px solid #2f4f4f;
+}
+
+button.btn--shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+.link:hover {
+    color: #c0c0c0 !important;
+    text-shadow: 0px 0px 1px #d3d3d3;
+    animation: bounce 1.5s linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    15% {
+        transform: translateY(-15px);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+
+    45% {
+        transform: translateY(-15px);
+    }
+
+    60% {
+        transform: translateY(0);
+    }
+}
